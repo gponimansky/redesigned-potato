@@ -1,2 +1,2 @@
-# redesigned-potato
+# AngularJS
 An exercise in AngularJS
