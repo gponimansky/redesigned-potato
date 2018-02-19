@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 	<title>Angular JS</title>
@@ -11,13 +11,9 @@
 	<p ng-bind="output"></p>
 </div>
 
-<div ng-app="" ng-init="firstName='Guy'">
-	<p>The name is <span ng-bind="firstName"></span></p>
+<div ng-app="" ng-init="firstName='Guy'" ng-init="lastName='Ponimansky'">
+	<p>The name is <span ng-bind="firstName" + ' ' + "lastName"></span></p>
 </div> 
-	
-<div ng-app="" ng-init="firstName='Ponimansky'">
-	<p>The name is <span ng-bind="lastName"></span></p>
-</div>
 
 </body>
 </html>
